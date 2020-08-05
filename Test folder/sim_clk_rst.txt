@@ -1,0 +1,5 @@
+add_force {/single_cycle_dp/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/single_cycle_dp/rst} -radix hex {1 0ns}
+run 100 ns
+add_force {/single_cycle_dp/rst} -radix hex {0 0ns}
+run 10 us

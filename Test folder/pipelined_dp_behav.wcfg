@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="pipelined_dp_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="pipelined_dp" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1118458999fs"></ZoomStartTime>
+      <ZoomEndTime time="1171559000fs"></ZoomEndTime>
+      <Cursor1Time time="1132259000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="147"></NameColumnWidth>
+      <ValueColumnWidth column_width="337"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="80" />
+   <wvobject fp_name="/pipelined_dp/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/pc_in" type="array">
+      <obj_property name="ElementShortName">pc_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/pc_out" type="array">
+      <obj_property name="ElementShortName">pc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/inst_out" type="array">
+      <obj_property name="ElementShortName">inst_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/control_signals" type="array">
+      <obj_property name="ElementShortName">control_signals[9:0]</obj_property>
+      <obj_property name="ObjectShortName">control_signals[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/memRead" type="logic">
+      <obj_property name="ElementShortName">memRead</obj_property>
+      <obj_property name="ObjectShortName">memRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/memWrite" type="logic">
+      <obj_property name="ElementShortName">memWrite</obj_property>
+      <obj_property name="ObjectShortName">memWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/regWrite" type="logic">
+      <obj_property name="ElementShortName">regWrite</obj_property>
+      <obj_property name="ObjectShortName">regWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/branch" type="logic">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/memToReg" type="array">
+      <obj_property name="ElementShortName">memToReg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">memToReg[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/read_data1" type="array">
+      <obj_property name="ElementShortName">read_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/read_data2" type="array">
+      <obj_property name="ElementShortName">read_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/imm_out" type="array">
+      <obj_property name="ElementShortName">imm_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/RF_ALU_out" type="array">
+      <obj_property name="ElementShortName">RF_ALU_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RF_ALU_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/ALU_2nd_in" type="array">
+      <obj_property name="ElementShortName">ALU_2nd_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_2nd_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/ALU_sel" type="array">
+      <obj_property name="ElementShortName">ALU_sel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_sel[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/ALU_result" type="array">
+      <obj_property name="ElementShortName">ALU_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/JALR_PC" type="array">
+      <obj_property name="ElementShortName">JALR_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">JALR_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/data_mem_out" type="array">
+      <obj_property name="ElementShortName">data_mem_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_mem_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/RF_write_data" type="array">
+      <obj_property name="ElementShortName">RF_write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RF_write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/pc_adder_out" type="array">
+      <obj_property name="ElementShortName">pc_adder_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_adder_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/pc_adder_branch_out" type="array">
+      <obj_property name="ElementShortName">pc_adder_branch_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_adder_branch_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/cf" type="logic">
+      <obj_property name="ElementShortName">cf</obj_property>
+      <obj_property name="ObjectShortName">cf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/zf" type="logic">
+      <obj_property name="ElementShortName">zf</obj_property>
+      <obj_property name="ObjectShortName">zf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/vf" type="logic">
+      <obj_property name="ElementShortName">vf</obj_property>
+      <obj_property name="ObjectShortName">vf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/sf" type="logic">
+      <obj_property name="ElementShortName">sf</obj_property>
+      <obj_property name="ObjectShortName">sf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/pc_src" type="array">
+      <obj_property name="ElementShortName">pc_src[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_src[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/pc_sel" type="logic">
+      <obj_property name="ElementShortName">pc_sel</obj_property>
+      <obj_property name="ObjectShortName">pc_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/IF_ID_PC" type="array">
+      <obj_property name="ElementShortName">IF_ID_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/IF_ID_Inst" type="array">
+      <obj_property name="ElementShortName">IF_ID_Inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_Inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/IF_ID_pc_adder_out" type="array">
+      <obj_property name="ElementShortName">IF_ID_pc_adder_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_pc_adder_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/ID_EX_Rs1" type="array">
+      <obj_property name="ElementShortName">ID_EX_Rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/ID_EX_Rs2" type="array">
+      <obj_property name="ElementShortName">ID_EX_Rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/ID_EX_Rd" type="array">
+      <obj_property name="ElementShortName">ID_EX_Rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/ID_EX_Ctrl" type="array">
+      <obj_property name="ElementShortName">ID_EX_Ctrl[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Ctrl[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/ID_EX_PC" type="array">
+      <obj_property name="ElementShortName">ID_EX_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/ID_EX_RegR1" type="array">
+      <obj_property name="ElementShortName">ID_EX_RegR1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_RegR1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/ID_EX_RegR2" type="array">
+      <obj_property name="ElementShortName">ID_EX_RegR2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_RegR2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/ID_EX_Imm" type="array">
+      <obj_property name="ElementShortName">ID_EX_Imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/ID_EX_pc_adder_out" type="array">
+      <obj_property name="ElementShortName">ID_EX_pc_adder_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_pc_adder_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/ID_EX_shamt" type="array">
+      <obj_property name="ElementShortName">ID_EX_shamt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_shamt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/ID_EX_Func" type="array">
+      <obj_property name="ElementShortName">ID_EX_Func[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Func[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/ID_EX_opcode" type="array">
+      <obj_property name="ElementShortName">ID_EX_opcode[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_opcode[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/EX_MEM_BranchAddOut" type="array">
+      <obj_property name="ElementShortName">EX_MEM_BranchAddOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_BranchAddOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/EX_MEM_ALU_out" type="array">
+      <obj_property name="ElementShortName">EX_MEM_ALU_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_ALU_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/EX_MEM_RegR2" type="array">
+      <obj_property name="ElementShortName">EX_MEM_RegR2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_RegR2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/EX_MEM_Imm" type="array">
+      <obj_property name="ElementShortName">EX_MEM_Imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_Imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/EX_MEM_pc_adder_out" type="array">
+      <obj_property name="ElementShortName">EX_MEM_pc_adder_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_pc_adder_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/EX_MEM_Rd" type="array">
+      <obj_property name="ElementShortName">EX_MEM_Rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_Rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/EX_MEM_opcode" type="array">
+      <obj_property name="ElementShortName">EX_MEM_opcode[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_opcode[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/EX_MEM_Ctrl" type="array">
+      <obj_property name="ElementShortName">EX_MEM_Ctrl[6:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_Ctrl[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/EX_MEM_Func" type="array">
+      <obj_property name="ElementShortName">EX_MEM_Func[2:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_Func[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/EX_MEM_Carry" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_Carry</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_Carry</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/EX_MEM_Zero" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_Zero</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/EX_MEM_Overflow" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_Overflow</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_Overflow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/EX_MEM_Sign" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_Sign</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_Sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/MEM_WB_Mem_out" type="array">
+      <obj_property name="ElementShortName">MEM_WB_Mem_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_Mem_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/MEM_WB_ALU_out" type="array">
+      <obj_property name="ElementShortName">MEM_WB_ALU_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_ALU_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/MEM_WB_pc_adder_out" type="array">
+      <obj_property name="ElementShortName">MEM_WB_pc_adder_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_pc_adder_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/MEM_WB_Imm" type="array">
+      <obj_property name="ElementShortName">MEM_WB_Imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_Imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/MEM_WB_BranchAddOut" type="array">
+      <obj_property name="ElementShortName">MEM_WB_BranchAddOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_BranchAddOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/MEM_WB_Ctrl" type="array">
+      <obj_property name="ElementShortName">MEM_WB_Ctrl[3:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_Ctrl[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/MEM_WB_Rd" type="array">
+      <obj_property name="ElementShortName">MEM_WB_Rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_Rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/forwardA" type="array">
+      <obj_property name="ElementShortName">forwardA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forwardA[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/forwardB" type="array">
+      <obj_property name="ElementShortName">forwardB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forwardB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/sClk" type="logic">
+      <obj_property name="ElementShortName">sClk</obj_property>
+      <obj_property name="ObjectShortName">sClk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/mem_addr" type="array">
+      <obj_property name="ElementShortName">mem_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/ID_EX_mem_out" type="array">
+      <obj_property name="ElementShortName">ID_EX_mem_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_mem_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/EX_MEM_mem_out" type="array">
+      <obj_property name="ElementShortName">EX_MEM_mem_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_mem_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/MEM_WB_mem_out" type="array">
+      <obj_property name="ElementShortName">MEM_WB_mem_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_mem_out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/mem_mux_sel" type="logic">
+      <obj_property name="ElementShortName">mem_mux_sel</obj_property>
+      <obj_property name="ObjectShortName">mem_mux_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/ALUin1" type="array">
+      <obj_property name="ElementShortName">ALUin1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUin1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/ALUin2" type="array">
+      <obj_property name="ElementShortName">ALUin2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUin2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/stall" type="logic">
+      <obj_property name="ElementShortName">stall</obj_property>
+      <obj_property name="ObjectShortName">stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/t" type="logic">
+      <obj_property name="ElementShortName">t</obj_property>
+      <obj_property name="ObjectShortName">t</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/mem_out" type="array">
+      <obj_property name="ElementShortName">mem_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelined_dp/mem_out_final" type="array">
+      <obj_property name="ElementShortName">mem_out_final[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_out_final[31:0]</obj_property>
+   </wvobject>
+</wave_config>

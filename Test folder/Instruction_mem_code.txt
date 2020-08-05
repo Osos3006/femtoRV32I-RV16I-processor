@@ -1,0 +1,151 @@
+  
+            mem[0]=8'h83; //lw x1, 0(x0)
+            mem[1]=8'h20;
+            mem[2]=8'h00 ;
+            mem[3]=8'h00 ;
+            
+            mem[4]=8'h17; //AUIPC x2, 10
+            mem[5]=8'ha1;
+            mem[6]=8'h00 ;
+            mem[7]=8'h00 ;
+            
+            mem[8]=8'hb7; //lui x1, 12
+            mem[9]=8'hc0;
+            mem[10]=8'h00;
+            mem[11]=8'h00;
+            
+            mem[12]=8'h03; //lb x2, 0(x0)
+            mem[13]=8'h01;
+            mem[14]=8'h00;
+            mem[15]=8'h00;
+            
+            
+            mem[16]=8'h0f; //fence.i
+            mem[17]=8'h10;
+            mem[18]=8'h00;
+            mem[19]=8'h00;
+            
+            
+            
+            
+            mem[20]=8'h83; //lbu x5, 0(x0)  
+            mem[21]=8'h41; 
+            mem[22]=8'h00;      
+            mem[23]=8'h00;
+            
+            
+            
+            mem[24]=8'h23; //sw x1,12(x0)
+            mem[25]=8'h26; 
+            mem[26]=8'h10;      
+            mem[27]=8'h00;
+            
+            
+            mem[28]=8'ha3; //sb x1,15(x0)
+            mem[29]=8'h07; 
+            mem[30]=8'h10;      
+            mem[31]=8'h00;
+            
+            
+            mem[32]=8'ha3; //sh x1,17(x0)
+            mem[33]=8'h18; 
+            mem[34]=8'h10;      
+            mem[35]=8'h00;
+            
+            mem[36]=8'h03; //lh x4,0(x0)
+            mem[37]=8'h12; 
+            mem[38]=8'h00;      
+            mem[39]=8'h00;
+            
+            mem[40]=8'h83; //lhu x5,0(x0)
+            mem[41]=8'h52; 
+            mem[42]=8'h00;      
+            mem[43]=8'h00;
+            
+            mem[44]=8'h93; // addi x1,x0,5
+            mem[45]=8'h00;
+            mem[46]=8'h50;
+            mem[47]=8'h00;
+            
+            mem[48]=8'h13; // addi x2,x0,1
+            mem[49]=8'h01;
+            mem[50]=8'h10;
+            mem[51]=8'h00;
+            
+            //          mem[52]=8'he3; // bne, x1,x2,label1
+            //          mem[53]=8'h94;
+            //          mem[54]=8'h20;
+            //          mem[55]=8'hfe;
+            
+            mem[52]=8'h13; // addi x4,x0,6
+            mem[53]=8'h02;
+            mem[54]=8'h60;
+            mem[55]=8'h00;
+            
+            mem[56]=8'h13; // slti x6,x4,12
+            mem[57]=8'h23;
+            mem[58]=8'hc2;
+            mem[59]=8'h00;
+            
+            mem[60]=8'h13; // sltiu x6,x4,12
+            mem[61]=8'h33;
+            mem[62]=8'hc2;
+            mem[63]=8'h00;
+            
+            mem[64]=8'h63; // bge x1,x2,label2
+            mem[65]=8'hd2;
+            mem[66]=8'h20;
+            mem[67]=8'h00;
+            
+            mem[68]=8'h93; // andi x5,x4,0
+            mem[69]=8'h72;
+            mem[70]=8'h02;
+            mem[71]=8'h00;
+            
+            
+                   
+            mem[72]=8'h63; // blt x5,x4,label3
+            mem[73]=8'hc2;
+            mem[74]=8'h42;
+            mem[75]=8'h00;
+            
+            
+            mem[76]=8'h13; // addi x4,x0,-2
+            mem[77]=8'h02;
+            mem[78]=8'he0;
+            mem[79]=8'hff;
+            
+            mem[80]=8'h13; // bltu x0,x4,label4
+            mem[81]=8'h02;
+            mem[82]=8'he0;
+            mem[83]=8'hff;
+            
+            
+            mem[84]=8'h63; // bgeu x4,x0,label5
+            mem[85]=8'h72;
+            mem[86]=8'h02;
+            mem[87]=8'h00;
+            
+            /*mem[88]=8'hef; // jal x1,label6
+            mem[89]=8'hf0;
+            mem[90]=8'hdf;
+            mem[91]=8'hff;
+            */
+            
+//            mem[92]=8'h67; // jalr x2,x1,-8
+//            mem[93]=8'h81;
+//            mem[94]=8'h80;
+//            mem[95]=8'hff;
+            
+            
+            mem[96]=8'h73; // ecall
+            mem[97]=8'h00;
+            mem[98]=8'h00;
+            mem[99]=8'h00;
+            
+            
+            
+            mem[100]=8'h73; // ebreak
+            mem[101]=8'h00;
+            mem[102]=8'h10;
+            mem[103]=8'h00;
