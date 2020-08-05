@@ -11,7 +11,9 @@
 Students Names:
 
 Abdelhakim Badawy 		abdelhakimbadawy@aucegypt.edu
+
 Marwan Eid         		marwanadel99@aucegypt.edu
+
 Mohammed Abuelwafa	 	 mohammedabuelwafa@aucegypt.edu
 
 Release Notes:
